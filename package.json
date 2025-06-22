@@ -1,0 +1,25 @@
+{
+  "name": "ibookservice-training",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/vadym881/ts-IBookService-training#readme",
+  "bugs": {
+    "url": "https://github.com/vadym881/ts-IBookService-training/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadym881/ts-IBookService-training.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
