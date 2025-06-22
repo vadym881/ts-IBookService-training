@@ -1,4 +1,4 @@
-import { IBookService } from "../types";
+import { GenreType, IBookService } from "../types";
 import { Author } from "./author";
 import { Book } from "./book";
 
@@ -52,7 +52,7 @@ export class Library implements IBookService {
 
   search(params: {
     title?: string;
-    genre?: string;
+    genre?: GenreType;
     yearPublished?: number;
     author?: Author;
   }): Book[] {
